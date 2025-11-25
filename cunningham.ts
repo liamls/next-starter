@@ -1,12 +1,19 @@
-/* eslint-disable import/no-anonymous-default-export */
-import { DefaultTokens } from "@openfun/cunningham-react";
+import { defaultThemes } from "@openfun/cunningham-tokens";
 
-const config: DefaultTokens = {
+const defaultConfig = {
+  themes: {
     globals: {
-        colors: {
-            "brand-500": "purple",
-        },
+      colors: {
+        "brand-500": "purple",
+      },
     },
+    components: {
+      button: {
+        "border-radius": "100px",
+      },
+    },
+  },
 };
 
+const config = { ...defaultConfig, ...defaultThemes };
 export default config;

@@ -1169,3 +1169,9 @@
 	--c--contextuals--border--palette--gray--secondary: var(--c--globals--colors--gray-450);
 	--c--contextuals--border--palette--gray--tertiary: var(--c--globals--colors--gray-550);
 }
+.cunningham-theme--globals{
+	--c--colors--brand-500: purple;
+}
+.cunningham-theme--components{
+	--c--button--border-radius: 100px;
+}
