@@ -1,31 +1,30 @@
 .container {
-  padding: 2rem;
+  padding: var(--c--globals--spacings--lg);
   max-width: 700px;
   margin: 0 auto;
 }
 
 .title {
-  margin-bottom: 2rem;
+  margin-bottom: var(--c--globals--spacings--lg);
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: var(--c--globals--font--weights--bold);
 }
 
 .card {
-  margin-bottom: 2rem;
+  margin-bottom: var(--c--globals--spacings--lg);
   padding: 1.5rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--c--contextuals--border--surface--primary);
   border-radius: 12px;
-  background-color: #fafafa;
+  background-color: var(--c--contextuals--background--surface--primary);
 }
 
 .description {
-  color: #555;
   margin-bottom: 1rem;
 }
 
 .input {
   padding: 0.4rem 0.6rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--c--contextuals--border--surface--primary);
   border-radius: 6px;
   margin-right: 0.5rem;
 }

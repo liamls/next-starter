@@ -1,20 +1,19 @@
 .container {
-  padding: 2rem;
+  padding: var(--c--globals--spacings--lg);
   max-width: 720px;
   margin: 0 auto;
 }
 
 .title {
-  margin-bottom: 2rem;
+  margin-bottom: var(--c--globals--spacings--lg);
   font-size: 1.8rem;
   font-weight: 600;
-  color: #111;
 }
 
 .card {
   margin-bottom: 2.5rem;
-  padding: 2rem;
-  border: 1px solid #ddd;
+  padding: var(--c--globals--spacings--lg);
+  border: 1px solid var(--c--contextuals--border--surface--primary);
   border-radius: 12px;
   background-color: #fafafa;
 }
